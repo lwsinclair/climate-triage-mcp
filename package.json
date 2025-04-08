@@ -1,0 +1,28 @@
+{
+  "name": "mcp-climate-triage",
+  "version": "1.0.0",
+  "description": "MCP server for ClimateTriage issues",
+  "license": "MIT",
+  "author": "Codeshark-NET",
+  "homepage": "",
+  "bugs": "",
+  "type": "module",
+  "bin": {
+    "mcp-server-climate-triage": "index.ts"
+  },
+  "scripts": {
+    "build": "tsc && shx chmod +x index.ts",
+    "prepare": "npm run build",
+    "watch": "tsc --watch"
+  },
+  "dependencies": {
+    "fastmcp": "^1.20.5",
+    "zod": "^3.24.2",
+    "tsx": "^4.19.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "shx": "^0.3.4",
+    "typescript": "^5.8.2"
+  }
+}
