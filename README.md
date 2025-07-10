@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/codeshark-net-climate-triage-mcp-badge.png)](https://mseep.ai/app/codeshark-net-climate-triage-mcp)
+
 # ClimateTriage MCP Server
 
 An MCP server implementation that integrates with the ClimateTriage API, providing tools to search for open source issues related to climate change and sustainability.
